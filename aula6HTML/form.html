@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Realizar cadastro de Usuario">
+    <title>Cadastro de Usuário </title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form action="#" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome"><br>
+
+        <label for="dt_nascimento">Data de Nascimento</label>
+        <input type="date" name="dt_nascimento"><br>
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" readonly><br>
+        <!-- readonly: campos apenas para exibição -->
+
+        <label for="telefone">Telefone</label>
+        <input type="number" name="telefone" required><br>
+        <!-- required: campos obrigátios para edição -->
+
+        <label for="senha"> Senha </label>
+        <input type="passaword" name="senha"><br>
+
+        <p>Sexo:</p>
+        <input type="radio" id="masculino" name="sexo" value="masculino" > Masculino
+        <br>
+        <input type="radio" id="feminino" name="sexo" value="feminino"> Feminino
+        <br>
+        <input type="radio" id="outro" name="sexo" value="outro"> Outros
+        <br>
+
+        <label for="pesquisa"> Onde você encontrou essa página</label>
+        <select id="pesquisa">
+            <option value="Linkedin"> Linkedin</option>
+            <option value="Google"> Google</option>
+            <option value="Facebook"> Facebook</option>
+            <option value="Whatsapp"> Whatsapp</option>
+        </select>
+
+        <br>
+        <label for="termos">Aceita os termos</label>
+        <input type="checkbox" name="termos">
+        
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

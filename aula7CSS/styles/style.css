@@ -36,3 +36,52 @@ nav {
     background-color: rgb(255,10,156);
 
 }
+
+.caixa_px{
+    width: 200px;
+    height: 100px;
+    background-color: darkviolet;
+    margin-bottom: 20px;
+
+}
+
+.caixa_cm{
+    width: 5cm;
+    height: 3cm;
+    background-color: darkturquoise;
+    margin-bottom: 20px;
+
+}
+.caixa_mm{
+    width: 50mm;
+    height: 30mm;
+    background-color: darkslategray;
+    margin-bottom: 20px;
+
+}
+.caixa_in{
+    width: 5in;
+    height: 3in;
+    background-color: darkseagreen;
+
+}
+
+.caixa_porc{
+    width: 50%;
+    height: 30%;
+    background-color: lightblue;
+
+}
+.caixa_v{
+    width: 50vw;
+    height: 30vw;
+    background-color: lightcoral;
+    margin-bottom: 20px;
+
+}
+.caixa_vh{
+    width: 50vh;
+    height: 30vh;
+    background-color: lightgreen;
+
+}

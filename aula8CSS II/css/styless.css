@@ -1,0 +1,19 @@
+.pre{
+    background-color: lavender;
+    height: 20px;
+    width: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+
+
+}
+
+.pre_simples {
+    background-color: crimson;
+    height: 20px;
+    width: 20px;
+    padding: 50px, 50px, 50px, 50px;
+    /*Topo, Direita, Baixo e Esquerda*/
+}

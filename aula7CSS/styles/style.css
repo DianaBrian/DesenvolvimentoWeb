@@ -8,3 +8,31 @@ nav {
     font-weight: bold;
     font-variant-emoji: 32px;
 }
+
+    /* SELETORES */
+    /*  #nome_id: usado para selecionar o ID
+    .nome_class: usado para selecionar um conjunto que recebe a classe 
+    tag: usado para selecionar um conjunto de elemnetos que tem a mesma tag em HTML
+    [name=valor]: usado para selecionar o elmento que possui o name
+    */
+
+#nome_cor{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+
+}
+
+.hex{
+    width: 200px;
+    height: 100px;
+    background-color: #ecae7b;
+
+}
+
+[name="rgb"]{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255,10,156);
+
+}

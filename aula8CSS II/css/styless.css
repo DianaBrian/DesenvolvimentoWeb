@@ -17,3 +17,139 @@
     padding: 50px, 50px, 50px, 50px;
     /*Topo, Direita, Baixo e Esquerda*/
 }
+
+
+/* Selecionando um elemento pela sua Tag */
+div {
+    background-color: antiquewhite;
+    width: 300px;
+    height: 100px;
+    border: 1px solid;
+}
+
+/* Selecionando elemento(s) pela sua Class */
+.souClasse{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: aqua;
+}
+
+/* Selecionando elemento por seu ID */
+
+#souID{
+    font-size: 22px;
+    font-weight: lighter;
+    background-color: lightcoral;
+    /* border: 5px solid; */
+}
+
+/* seleção por descedencia */
+/* Na classe "pai" que tiver "filhos" receberá essas propriedades  */
+.pai .filho{
+    background-color: lightgrey;
+     font-size: 10px;
+}
+
+/* seleção direta */
+/* Na classe "pai" que tiver DIV receberá essa propriedades */
+.pai > div {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.mg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;    
+}
+
+.mg_simples{
+    margin: 10px 10px 10px 10px;
+}
+
+.inline{
+    display: inline;
+}
+
+.block span {
+    display: block;
+}
+
+.inline-block span {
+     display: inline-block;
+    
+}
+
+.none{
+    display: none;
+}
+
+/* Positions */
+.static{
+    position: static;
+    top:50%;
+}
+
+.relative{
+    position: relative;
+    top:10px;
+    left:100px;
+}
+
+.absolute{
+    position: absolute;
+    top:10px;
+    left: 10px;
+    height:50px;
+    width: 200px;
+    background-color: aquamarine;
+}
+
+.fixed{
+    position: fixed;
+    top:0px;
+    left: 500px;
+}
+
+.flex{
+    display: flex;
+    background-color: darkorchid;
+    height: 150px;
+}
+
+.flex>span{
+    font-size:18px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 70px;
+    height: 50px;
+}
+
+.f-h-start{
+    justify-content: start;
+}
+.f-h-end{
+    justify-content: end;
+}
+.f-h-center{
+    justify-content: center;
+}
+.f-h-arround{
+    justify-content:space-around;
+}
+
+.f-v-start{
+    align-items: start;
+}
+.f-v-end{
+    align-items: end;
+}
+.f-v-center{
+    align-items: center;
+}
+.f-v-arround{
+    align-items:space-around;
+}

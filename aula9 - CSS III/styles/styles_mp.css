@@ -1,0 +1,16 @@
+@media print {
+    body {
+        font-size: 22px;
+        background-color: white; 
+    }
+    #no.print{
+        display: none;
+    }
+}
+
+@media screen and (min-width:600px) {
+    body {
+        background-color: indianred;
+        font-weight: bold;
+    }
+}

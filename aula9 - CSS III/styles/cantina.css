@@ -1,0 +1,58 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(44, 44, 44);
+    background-color: honeydew;
+
+}
+
+
+header{
+    background-color: brown;
+    color: beige;
+    text-align: center;
+    padding: 40px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+
+}
+
+
+.menu {
+    display:  flex;
+    flex-wrap:wrap;
+    /* define os itens dentro do container estejam em uma única linha*/
+    margin-top: 20px;
+    gap: 20px;
+    /*define o espaçamento entre os itens*/
+    justify-content: center;
+    /*centraliza os itens*/
+
+}
+
+.item { 
+    background-color: rosybrown;
+    border-radius: 12px;
+    /* define uma borda arredondada*/
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    /* define uma sombra */
+    padding: 200px;
+    width: 300px;
+    text-align: center;
+    /* define o alinhamento do texto, nesse caso centralizado*/
+    transition: transform 0.5s  ease;
+    /* movimento suave por 5s */
+    /* transition: propriedade duração delay*/
+
+}
+
+.item:hover{
+    transform: translateY(-5px);
+    /* quando passar o mouse por cima do elemento,sobe 5px */
+}

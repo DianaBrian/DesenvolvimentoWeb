@@ -1,0 +1,38 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+.calculadora{
+    width: 50%;
+    margin-top: auto;
+    padding: 20px;
+    border: 2px solid #acabab;
+    border-radius: 20px;
+
+}
+
+input, button{
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.botoes{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+
+}
+
+.botoes button{
+    flex: 1 1 45%;
+}
+
+#resultado{
+    font-weight: bold;
+    margin-top: 10px;
+
+}
